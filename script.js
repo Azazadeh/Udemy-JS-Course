@@ -64,42 +64,50 @@
 //   console.log("No team wins!");
 // }
 
-let day = "monday";
+// let day = "monday";
 
-if (day === "monday") {
-  console.log("plan course structure.");
-  console.log("Go to coding meetup.");
-} else if (day === "tuesday") {
-  console.log("Prepare theory videos.");
-} else if (day === "wednesday" || day === "thursday") {
-  console.log("Write code examples.");
-} else if (day === "friday") {
-  console.log("Record videos.");
-} else if (day === "saturday" || day === "sunday") {
-  console.log("Enjoy the weekend!");
-} else {
-  console.log("Day is not valid!");
-}
+// if (day === "monday") {
+//   console.log("plan course structure.");
+//   console.log("Go to coding meetup.");
+// } else if (day === "tuesday") {
+//   console.log("Prepare theory videos.");
+// } else if (day === "wednesday" || day === "thursday") {
+//   console.log("Write code examples.");
+// } else if (day === "friday") {
+//   console.log("Record videos.");
+// } else if (day === "saturday" || day === "sunday") {
+//   console.log("Enjoy the weekend!");
+// } else {
+//   console.log("Day is not valid!");
+// }
 
-switch (day) {
-  case "monday":
-    console.log("plan course structure.");
-    console.log("Go to coding meetup.");
-    break;
-  case "tuesday":
-    console.log("Prepare theory videos.");
-    break;
-  case "wednesday":
-  case "thursday":
-    console.log("Write code examples.");
-    break;
-  case "friday":
-    console.log("Record videos.");
-    break;
-  case "saturday":
-  case "sunday":
-    console.log("Enjoy the weekend!");
-    break;
-  default:
-    console.log("Day is not valid!");
-}
+// switch (day) {
+//   case "monday":
+//     console.log("plan course structure.");
+//     console.log("Go to coding meetup.");
+//     break;
+//   case "tuesday":
+//     console.log("Prepare theory videos.");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("Write code examples.");
+//     break;
+//   case "friday":
+//     console.log("Record videos.");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("Enjoy the weekend!");
+//     break;
+//   default:
+//     console.log("Day is not valid!");
+// }
+
+// Coding challenge #4
+
+let bill = 430;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+console.log(
+  `The bill was ${bill} and the tip is ${tip} and the total is ${bill + tip}`
+);
